@@ -117,7 +117,13 @@ const App = () => {
       {route === "home" ? (
         <div>
           <Logo />
-          {/* <Rank name={user.name} entries={user.entries} /> */}
+          <p className="f1">Welcome {user.name}</p>
+          <h1>Instructions</h1>
+          <p>• Paste a link to an image of a face that starts with `https`.</p>
+          <p>
+            • At present magic brain can detect only one face. Avoid pictures
+            with multiple faces.
+          </p>
           <ImageLinkForm
             onInputChange={onInputChange}
             onButtonSubmit={onButtonSubmit}
