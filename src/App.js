@@ -117,7 +117,7 @@ const App = () => {
       {route === "home" ? (
         <div>
           <Logo />
-          <Rank name={user.name} entries={user.entries} />
+          {/* <Rank name={user.name} entries={user.entries} /> */}
           <ImageLinkForm
             onInputChange={onInputChange}
             onButtonSubmit={onButtonSubmit}
