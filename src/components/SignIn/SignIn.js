@@ -81,6 +81,12 @@ class SignIn extends React.Component {
               >
                 Register
               </p>
+              <p
+                onClick={() => onRouteChange("home")}
+                className="f6 link dim black pointer db"
+              >
+                Guest login
+              </p>
               {/*<a href="#0" className="f6 link dim black db">Forgot your password?</a>*/}
             </div>
           </div>
